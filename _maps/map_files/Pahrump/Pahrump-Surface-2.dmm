@@ -5261,13 +5261,6 @@
 	icon_state = "horizontaltopborderbottom0"
 	},
 /area/f13/wasteland)
-"cgR" = (
-/turf/open/indestructible/ground/inside/dirt{
-	barefootstep = "sand";
-	clawfootstep = "sand";
-	footstep = "sand"
-	},
-/area/f13/building)
 "cgS" = (
 /obj/structure/fence{
 	dir = 4
@@ -36504,10 +36497,6 @@
 /obj/effect/turf_decal/weather/dirt,
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/indestructible/ground/outside/water,
-/area/f13/wasteland)
-"pjQ" = (
-/obj/structure/blacksmith/quenching,
-/turf/open/indestructible/ground/outside/wood,
 /area/f13/wasteland)
 "pkf" = (
 /obj/machinery/light/small,
@@ -96729,11 +96718,11 @@ gcK
 gcK
 uqa
 fil
-oLa
+cbr
 aFK
 gCh
-cbK
-cbK
+fyf
+fyf
 gcK
 aVc
 fyf
@@ -96989,8 +96978,8 @@ pnQ
 oLa
 cbr
 auw
-cbK
-cbK
+fyf
+fyf
 qOV
 cWG
 cWG
@@ -97246,8 +97235,8 @@ cbr
 cbr
 cbr
 gDn
-cbK
-cbK
+fyf
+fyf
 tBN
 mvv
 mvv
@@ -97500,10 +97489,10 @@ gcK
 gcK
 uqa
 cbr
-cbr
+oLa
 cbr
 auw
-cbK
+fyf
 fyf
 tBN
 mvv
@@ -97756,11 +97745,11 @@ ktB
 gcK
 gcK
 uqa
-cgR
+cbr
 cbr
 cbr
 auw
-cbK
+fyf
 fyf
 tBN
 mvv
