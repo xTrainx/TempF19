@@ -208,7 +208,7 @@ GLOBAL_LIST_INIT(vault_positions, list(
 
 GLOBAL_LIST_INIT(wasteland_positions, list(
 	"Outlaw",
-	"Blackwater Settler",
+	"Great Khan",
 	"Faithful",
 	"Vigilante",
 	"Tribal",
