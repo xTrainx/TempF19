@@ -4,6 +4,8 @@
 GLOBAL_LIST_INIT(gang_names, list ( \
 "raider", \
 "raiders", \
+"great khan", \
+"great khans", \
 "gang", \
 "gangs", \
 ))
@@ -16,6 +18,9 @@ GLOBAL_LIST_INIT(allowed_gang_factions, list ( \
 
 // List of all existing gangs
 GLOBAL_LIST_EMPTY(all_gangs)
+
+//Great Khans
+GLOBAL_DATUM_INIT(greatkhans, /datum/gang/greatkhans, new)
 
 /datum/gang
 	var/name = "gang"
@@ -55,6 +60,27 @@ GLOBAL_LIST_EMPTY(all_gangs)
 	)
 
 //Round-start gangs
+/datum/gang/greatkhans
+	name = "Great Khans"
+	color = "#b07f43"
+	round_start = TRUE
+	boss_items = list(
+		/datum/gang_item/weapon/spikedbaseball,
+		/datum/gang_item/weapon/greasegun,
+		/datum/gang_item/weapon/uzi,
+		/datum/gang_item/weapon/brass,
+
+		/datum/gang_item/equipment/emp,
+		/datum/gang_item/equipment/stinger,
+		/datum/gang_item/equipment/he,
+
+		/datum/gang_item/weapon/shuriken,
+		/datum/gang_item/equipment/necklace,
+		/datum/gang_item/clothing/prostitute_dress,
+		/datum/gang_item/clothing/hat,
+		/datum/gang_item/clothing/glasses/sunglasses,
+		/datum/gang_item/equipment/greatkhanheadset
+	)
 
 /datum/gang/New(starting_members, starting_leader)
 	. = ..()
