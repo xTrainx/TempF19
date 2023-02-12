@@ -13414,16 +13414,11 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "fCM" = (
-<<<<<<< HEAD
-/obj/structure/flora/grass/wasteland,
-/turf/open/indestructible/ground/outside/wood,
-=======
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
 	},
 /obj/structure/blacksmith/anvil/obtainable,
 /turf/open/indestructible/ground/outside/savannah/topcenter,
->>>>>>> 243aa1f362 (readds traders and adds quenching)
 /area/f13/wasteland)
 "fCO" = (
 /obj/effect/decal/fakelattice{
@@ -105985,12 +105980,7 @@ stD
 jAM
 fQm
 aEV
-<<<<<<< HEAD
-wsA
-stD
-=======
 pjQ
->>>>>>> 243aa1f362 (readds traders and adds quenching)
 mvv
 vDb
 kaP
