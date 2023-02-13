@@ -14089,6 +14089,13 @@
 /obj/structure/railing/corner,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"fPd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/sonora{
+	dir = 4;
+	icon_state = "desertsmooth8"
+	},
+/area/f13/wasteland)
 "fPv" = (
 /obj/structure/fence{
 	dir = 1
@@ -47967,6 +47974,13 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"urr" = (
+/obj/structure/barricade/bars,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/barricade/wooden/strong,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/space)
 "urt" = (
 /obj/structure/car/rubbish3,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -51769,7 +51783,8 @@
 /obj/structure/barricade/bars,
 /obj/structure/barricade/wooden/planks/pregame,
 /obj/structure/barricade/wooden/strong,
-/turf/open/space/basic,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
 /area/f13/legion)
 "wil" = (
 /obj/structure/chair,
@@ -118258,11 +118273,11 @@ xFO
 xFO
 xFO
 xFO
-whU
+qPq
 qPq
 uUS
 whU
-whU
+urr
 uUS
 xFO
 xFO
@@ -118519,7 +118534,7 @@ xAd
 xgE
 xAd
 hug
-xgE
+fPd
 vIu
 vIu
 xgE
