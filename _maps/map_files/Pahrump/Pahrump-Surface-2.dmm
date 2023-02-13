@@ -35888,6 +35888,9 @@
 	},
 /turf/open/floor/carpet,
 /area/f13/village)
+"oXO" = (
+/turf/open/indestructible/ground/outside/dirt,
+/area/space)
 "oXR" = (
 /obj/structure/fluff/railing,
 /turf/open/floor/plasteel/f13/vault_floor/white,
@@ -52180,7 +52183,8 @@
 	},
 /area/f13/wasteland)
 "wsA" = (
-)
+/turf/closed/indestructible/rock,
+/area/space)
 "wsC" = (
 /obj/structure/campfire,
 /turf/open/indestructible/ground/outside/dirt,
@@ -105991,7 +105995,7 @@ stD
 jAM
 fQm
 aEV
-wsA
+oXO
 mvv
 vDb
 kaP
